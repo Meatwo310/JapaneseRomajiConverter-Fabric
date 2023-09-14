@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.meatwo310.japaneseromajiconverter.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

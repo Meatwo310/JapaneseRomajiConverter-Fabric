@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "japaneseromajiconverter",
+  "version": "${version}",
+  "name": "JapaneseRomajiConverter",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Meatwo310/JapaneseRomajiConverter-Fabric"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/japaneseromajiconverter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.meatwo310.japaneseromajiconverter.client.JapaneseRomajiConverterClient"
+    ],
+    "main": [
+      "com.meatwo310.japaneseromajiconverter.JapaneseRomajiConverter"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "japaneseromajiconverter.mixins.json"
+  ]
+}
